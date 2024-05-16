@@ -377,6 +377,212 @@ public class GTAVWebhookScript : Script
                     Logger.Log("Unknown Command " + command.cmd);
                     break;
                 }
-        }
-    }
-}
+        case "remove_vehicles":
+                {
+                    try
+                    {
+                        while (spawnedVehicles.Count > 0)
+                        {
+                            Logger.Log(" vehicle: " + spawnedVehicles[0].DisplayName);
+                            Vehicles[0].Delete();
+                            Vehicles.RemoveAt(0);
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        Logger.Log("Failed to remove vehicles: " + ex.Message);
+                    }
+
+                    break;
+                }case "remove_spawned_vehicles":
+                {
+                    try
+                    {
+                        while (spawnedVehicles.Count > 0)
+                        {
+                            Logger.Log("Removing vehicle: " + spawnedVehicles[0].DisplayName);
+                            spawnedVehicles[0].Delete();
+                            spawnedVehicles.RemoveAt(0);
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        Logger.Log("Failed to remove spawned vehicles: " + ex.Message);
+                    }
+
+                    break;
+                }case "remove_spawned_vehicles":
+                {
+                    try
+                    {
+                        while (spawnedVehicles.Count > 0)
+                        {
+                            Logger.Log("Removing vehicle: " + spawnedVehicles[0].DisplayName);
+                            spawnedVehicles[0].Delete();
+                            spawnedVehicles.RemoveAt(0);
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        Logger.Log("Failed to remove spawned vehicles: " + ex.Message);
+                    }
+
+                    break;
+                }case "remove_spawned_vehicles":
+                {
+                    try
+                    {
+                        while (spawnedVehicles.Count > 0)
+                        {
+                            Logger.Log("Removing vehicle: " + spawnedVehicles[0].DisplayName);
+                            spawnedVehicles[0].Delete();
+                            spawnedVehicles.RemoveAt(0);
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        Logger.Log("Failed to remove spawned vehicles: " + ex.Message);
+                    }
+
+                    break;
+                }case "remove_spawned_vehicles":
+                {
+                    try
+                    {
+                        while (spawnedVehicles.Count > 0)
+                        {
+                            Logger.Log("Removing vehicle: " + spawnedVehicles[0].DisplayName);
+                            spawnedVehicles[0].Delete();
+                            spawnedVehicles.RemoveAt(0);
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        Logger.Log("Failed to remove spawned vehicles: " + ex.Message);
+                    }
+
+                    break;
+                }case "remove_spawned_vehicles":
+                {
+                    try
+                    {
+                        while (spawnedVehicles.Count > 0)
+                        {
+                            Logger.Log("Removing vehicle: " + spawnedVehicles[0].DisplayName);
+                            spawnedVehicles[0].Delete();
+                            spawnedVehicles.RemoveAt(0);
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        Logger.Log("Failed to remove spawned vehicles: " + ex.Message);
+                    }
+
+                    break;
+                }case "remove_spawned_vehicles":
+                {
+                    try
+                    {
+                        while (spawnedVehicles.Count > 0)
+                        {
+                            Logger.Log("Removing vehicle: " + spawnedVehicles[0].DisplayName);
+                            spawnedVehicles[0].Delete();
+                            spawnedVehicles.RemoveAt(0);
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        Logger.Log("Failed to remove spawned vehicles: " + ex.Message);
+                    }
+
+                    break;
+                }case "remove_spawned_vehicles":
+                {
+                    try
+                    {
+                        while (spawnedVehicles.Count > 0)
+                        {
+                            Logger.Log("Removing vehicle: " + spawnedVehicles[0].DisplayName);
+                            spawnedVehicles[0].Delete();
+                            spawnedVehicles.RemoveAt(0);
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        Logger.Log("Failed to remove spawned vehicles: " + ex.Message);
+                    }
+
+                    break;
+                }case "remove_spawned_vehicles":
+                {
+                    try
+                    {
+                        while (spawnedVehicles.Count > 0)
+                        {
+                            Logger.Log("Removing vehicle: " + spawnedVehicles[0].DisplayName);
+                            spawnedVehicles[0].Delete();
+                            spawnedVehicles.RemoveAt(0);
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        Logger.Log("Failed to remove spawned vehicles: " + ex.Message);
+                    }
+
+                    break;
+                }case "remove_spawned_vehicles":
+                {
+                    try
+                    {
+                        while (spawnedVehicles.Count > 0)
+                        {
+                            Logger.Log("Removing vehicle: " + spawnedVehicles[0].DisplayName);
+                            spawnedVehicles[0].Delete();
+                            spawnedVehicles.RemoveAt(0);
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        Logger.Log("Failed to remove spawned vehicles: " + ex.Message);
+                    }
+
+                    break;
+                }case "remove_spawned_vehicles":
+                {
+                    try
+                    {
+                        while (spawnedVehicles.Count > 0)
+                        {
+                            Logger.Log("Removing vehicle: " + spawnedVehicles[0].DisplayName);
+                            spawnedVehicles[0].Delete();
+                            spawnedVehicles.RemoveAt(0);
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        Logger.Log("Failed to remove spawned vehicles: " + ex.Message);
+                    }
+
+                    break;
+                }case "remove_spawned_vehicles":
+                {
+                    try
+                    {
+                        while (spawnedVehicles.Count > 0)
+                        {
+                            Logger.Log("Removing vehicle: " + spawnedVehicles[0].DisplayName);
+                            spawnedVehicles[0].Delete();
+                            spawnedVehicles.RemoveAt(0);
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        Logger.Log("Failed to remove spawned vehicles: " + ex.Message);
+                    }
+
+                    break;
+                }            
+
+        
+    
+
